@@ -31,7 +31,7 @@
             const data = JSON.parse(event.data);
             const str = JSON.stringify(data, null, 4);
             const out = document.getElementById("out");
-            out.textContent = str;
+            //out.textContent = str;
 
             // read state out of message and convert units
             const pos = data.state[posKey];
@@ -71,7 +71,7 @@
         y="-0.05"
         width="0.3"
         height="0.1"
-        fill="blue"
+        fill="red"
       />
       <rect
         id="pole"
